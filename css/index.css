@@ -1,11 +1,45 @@
-h1,div,ul,li,p,input{
+h2,div,ul,li,p,input,body{
 	margin: 0;
 	padding:0;
+	font-family: '微软雅黑';
 }
 body{
 	background-image: url(../images/paper.png);
 }
-h1{
-	font-size: 50px;
+.name{
+	font-size: 24px;
+	color: #fff;
+	background-color: #000;
+	height: 50px;
+	width: 100px;
+	line-height: 50px;
 	text-align: center;
+	position: fixed;
+	top: 25px;
+	left: 25px;
 	}
+.content{
+	max-width: 760px;
+	width: 90%;
+	margin: auto;
+	height: 2000px;
+	border: 1px solid #000;
+}
+.myself{
+	width: 15%;
+	position: fixed;
+	right: 5%;
+	top: 130px;
+}
+.introduce img{
+	border-radius:50%;
+}
+.introduce h2{
+	text-indent: 10px;
+	font-weight: bold;
+	margin-top: 20px;
+}
+.introduce p{
+	text-indent: 10px;
+	margin: 20px 0;
+}
